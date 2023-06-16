@@ -1,0 +1,40 @@
+body,html{
+  margin: 0;
+  height: 100vh;
+  background-image: url("./images/wos-irish-suarez-1.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #F24C3D;
+  font-size: 2000%;
+  -webkit-text-stroke: 2px #F29727; 
+  text-shadow: 4px 6px 7px #F2BE22;
+  position: relative;
+  animation: slideAndBounce 1s ease-in-out;
+}
+
+@keyframes slideAndBounce {
+  0% {
+    transform: translateY(-100%);
+  }
+  70% {
+    transform: translateY(30%);
+  }
+  90% {
+    transform: translateY(-10%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
