@@ -1,18 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
 
-<body>
-    <section>
-        <a><h1 id="title">WOS</h1></a>
+  <body>
+    <section class="wos">
+      <a href="#principal" onclick="mostrarPrincipal()"
+        ><h1 id="title" class="wosTxt">WOS</h1></a
+      >
+    </section>
+    <section id="principal">
+      <div class="container d-flex justify-content-center align-items-center">
+        <div class="mt-2 row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+          <div class="col">
+            <div class="card">
+              <img src="./styles/images/ab67616d0000b2738973fc0ac51f8033375ce970.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h5 class="card-title">Descartable</h5>
+                <p class="card-text">2023 - Sencillo</p>
+                <hr>
+                <a><span>Ir a Youtube</span></a>
+                <br>
+                <a></a><span>Ir a Spotify</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./styles/images/mone.webp" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h5 class="card-title">Money In The Bank</h5>
+                <p class="card-text">2023 - Sencillo ft. Molotov</p>
+                <hr>
+                <a><span>Ir a Youtube</span></a>
+                <br>
+                <a></a><span>Ir a Spotify</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./styles/images/puaj.webp" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h5 class="card-title">Puaj (sesion)</h5>
+                <p class="card-text">
+                 2022 - Sencillo
+                </p>
+                <hr>
+                <a><span>Ir a Youtube</span></a>
+                <br>
+                <a></a><span>Ir a Spotify</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./styles/images/consej.webp" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h5 class="card-title">Consejo de Sabios (Directo Estadio Metropolitano)</h5>
+                <p class="card-text">
+                 2022 - Sencillo
+                </p>
+                <hr>
+                <a><span>Ir a Youtube</span></a>
+                <br>
+                <a></a><span>Ir a Spotify</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <script src="./index.js"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

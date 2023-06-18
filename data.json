@@ -1,0 +1,50 @@
+ [
+  {
+    "nombre": "Mira mama",
+    "año": 2021,
+    "tipo": "Sencillo",
+    "img": "./styles/images/ab67616d0000b2738973fc0ac51f8033375ce970.jpeg"
+  },
+  {
+    "nombre": "Objeto 2",
+    "año": 2022,
+    "tipo": "Tipo 2",
+    "img": "ruta/imagen2.jpg"
+  },
+  {
+    "nombre": "Objeto 3",
+    "año": 2023,
+    "tipo": "Tipo 3",
+    "img": "ruta/imagen3.jpg"
+  },
+  {
+    "nombre": "Objeto 2",
+    "año": 2022,
+    "tipo": "Tipo 2",
+    "img": "ruta/imagen2.jpg"
+  },
+  {
+    "nombre": "Objeto 2",
+    "año": 2022,
+    "tipo": "Tipo 2",
+    "img": "ruta/imagen2.jpg"
+  },
+  {
+    "nombre": "Objeto 2",
+    "año": 2022,
+    "tipo": "Tipo 2",
+    "img": "ruta/imagen2.jpg"
+  },
+  {
+    "nombre": "Objeto 2",
+    "año": 2022,
+    "tipo": "Tipo 2",
+    "img": "ruta/imagen2.jpg"
+  },
+  {
+    "nombre": "Objeto 2",
+    "año": 2022,
+    "tipo": "Tipo 2",
+    "img": "ruta/imagen2.jpg"
+  }
+]
