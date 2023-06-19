@@ -25,6 +25,3 @@ function mostrarPrincipal() {
   principalSection.style.display = 'block';
   //principalSection.classList.add("mostrar");
 }
-import data from './data.json';
-
-console.log(data);
