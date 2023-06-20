@@ -2,6 +2,8 @@ body,
 html {
   margin: 0;
   height: 100vh;
+  background-size: cover;
+  background-color: #525FE1;
 }
 
 .wos {
