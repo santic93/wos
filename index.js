@@ -25,3 +25,20 @@ function mostrarPrincipal() {
   principalSection.style.display = 'block';
   //principalSection.classList.add("mostrar");
 }
+
+
+///volver arriba 
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("scrollButton").classList.add("show");
+  } else {
+    document.getElementById("scrollButton").classList.remove("show");
+  }
+}
+
+function scrollToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
