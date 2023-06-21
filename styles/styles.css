@@ -83,3 +83,11 @@ a {
 #scrollButton.show {
   display: block;
 }
+
+.card{
+  box-shadow: 10px 10px rgba(0,0,0,0.5);
+}
+
+h5{
+  color: #F86F03;
+}
